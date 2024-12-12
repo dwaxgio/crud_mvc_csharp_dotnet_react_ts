@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "REYDcfYUUfIEvHNOBCKL4xBIY/BS6CcNMo1NNjP52GWvLAZdeXs7qS8CZBOoPbpVIGjaKqywC4Tn7CvFgqOjqw==",
+  "dgSpecHash": "N4QSg+9fd9VswlNz0q4gDa6CKrDSnni2aRL7S2k1te5KdcSlEQLO6Lv1yp6IZeNnoYbaretGOX3lPF8U1dc32Q==",
   "success": true,
   "projectFilePath": "D:\\crud_mvc_csharp_dotnet_react_ts\\back\\PlantCareScheduler\\PlantCareScheduler.API\\PlantCareScheduler.API.csproj",
   "expectedPackageFiles": [
