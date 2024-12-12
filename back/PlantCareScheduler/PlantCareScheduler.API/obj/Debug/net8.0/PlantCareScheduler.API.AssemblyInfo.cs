@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PlantCareScheduler.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4ae0a9f473912e69596d38d093ad1ffc002f540e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d1a3e1f3e99549a32cd142783dc2fdcde98e4b3f")]
 [assembly: System.Reflection.AssemblyProductAttribute("PlantCareScheduler.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PlantCareScheduler.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

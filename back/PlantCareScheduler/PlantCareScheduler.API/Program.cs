@@ -15,7 +15,21 @@ builder.Services.AddDbContext<PlantContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 // EF /
 
+// Cors
+builder.Services.AddCors(options =>
+{
+    options.AddDefaultPolicy(policy =>
+    {
+        policy.WithOrigins("http://localhost:5173") // Front end direction
+              .AllowAnyHeader()
+              .AllowAnyMethod();
+    });
+});
+// Cors /
+
 var app = builder.Build();
+
+app.UseCors();
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
