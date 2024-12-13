@@ -69,16 +69,16 @@ const PlantTable: React.FC<PlantTableProps> = ({
                 <td>{plant.location}</td>
                 <td style={{ color }}>
                   <strong>{status}</strong>
-                </td>{" "}
+                </td>
                 <td>
                   <button
-                    className="btn btn-success btn-sm ms-2"
+                    className="btn btn-success btn-sm"
                     onClick={() => onWater(plant.id)}
                   >
                     Water
                   </button>
                   <button
-                    className="btn btn-danger btn-sm ms-2"
+                    className="btn btn-danger btn-sm"
                     onClick={() => onDelete(plant.id)}
                   >
                     Delete

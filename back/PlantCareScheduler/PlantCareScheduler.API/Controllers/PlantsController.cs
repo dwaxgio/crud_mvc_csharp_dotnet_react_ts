@@ -58,5 +58,19 @@ namespace PlantCareScheduler.API.Controllers
 
             return Ok(duePlants);
         }
+
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> DeletePlant(Guid id)
+        {
+            var plant = await _context.Plants.FindAsync(id);
+            if (plant == null)
+            {
+                return NotFound(); 
+            }
+
+            _context.Plants.Remove(plant); 
+            await _context.SaveChangesAsync(); 
+            return NoContent(); 
+        }
     }
 }
