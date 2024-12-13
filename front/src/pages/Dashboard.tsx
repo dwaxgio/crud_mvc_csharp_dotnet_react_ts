@@ -4,7 +4,7 @@ import { Plant } from "../models/Plant";
 import PlantTable from "../components/PlantTable";
 import PlantFormModal from "../components/PlantFormModal";
 
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL;
+import { API_BASE_URL } from "../utils/env";
 
 const Dashboard: React.FC = () => {
   const [plants, setPlants] = useState<Plant[]>([]);
