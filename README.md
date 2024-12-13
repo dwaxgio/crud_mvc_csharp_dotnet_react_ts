@@ -2,19 +2,51 @@
 
 A React-based application for managing plant care schedules, including adding, editing, and tracking the status of plants.
 
+## Screenshots
+
+### Dashboard
+![1_DASHBOARD](./front/public/images/1_DASHBOARD.png)
+
+### Create
+![2_CREATE](./front/public/images/2_CREATE.png)
+
+### Update
+![3_UPDATE_1](./front/public/images/3_UPDATE_1.png)
+![3_UPDATE_2](./front/public/images/3_UPDATE_2.png)
+
+### Delete
+![4_DELETE_1](./front/public/images/4_DELETE_1.png)
+![4_DELETE_2](./front/public/images/4_DELETE_2.png)
+
+### Sort by
+![5_SORT_BY](./front/public/images/5_SORT_BY.png)
+
+### Get -> Due
+![6_GET_DUE_PLANTS](./front/public/images/6_GET_DUE_PLANTS.png)
+
+### Show all
+![7_SHOW_ALL_PLANTS](./front/public/images/7_SHOW_ALL_PLANTS.png)
+
+### Project structure
+![8_PROJECT_STRUCTURE](./front/public/images/8_PROJECT_STRUCTURE.png)
+
+### SWAGGER
+![9_SWAGGER](./front/public/images/9_SWAGGER.png)
+
+
 ---
 
-## 🔧 Technologies Used
+## Technologies Used
 
 - **Frontend**: React, TypeScript, Bootstrap, Axios
 - **Testing**: Jest, React Testing Library
 - **Build Tool**: Vite
-- **Backend**: .Net, Entity Framework, Swagger
+- **Backend**: .Net, SQL Server, Entity Framework, Swagger
 - **Environment Configuration**: dotenv
 
 ---
 
-## 🗂 Architecture
+## Architecture
 
 This project follows a **Model-View-Controller (MVC)  architecture**:
 - **Model**: Represents data structures using TypeScript interfaces (e.g., Plant).
@@ -25,7 +57,7 @@ This project follows a **Model-View-Controller (MVC)  architecture**:
 
 ---
 
-## 🚀 Setup Instructions
+## Setup Instructions
 
 ### 1. Clone the repository
 ```bash
@@ -56,7 +88,7 @@ npm test
 
 ---
 
-## 💡 Brief Explanation of Approach
+## Brief Explanation of Approach
 
 1. **Componentization**: The application is split into modular, reusable components for scalability and easier testing.
 2. **Testing Strategy**:
@@ -68,7 +100,7 @@ npm test
 
 ---
 
-## 📋 Assumptions Made
+## Assumptions Made
 
 - API endpoints follow RESTful conventions and return standard JSON responses.
 - Environment variables are provided via a `.env` file.
@@ -76,7 +108,7 @@ npm test
 
 ---
 
-## 📈 Pertinent Notes
+## Pertinent Notes
 
 - To extend the functionality, simply add new React components or API endpoints as needed.
 - For deployment, ensure that the `VITE_API_BASE_URL` variable in the `.env` file points to the production backend.
