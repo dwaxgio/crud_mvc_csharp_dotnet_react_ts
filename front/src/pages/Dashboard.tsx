@@ -4,6 +4,8 @@ import { Plant } from "../models/Plant";
 import PlantTable from "../components/PlantTable";
 import PlantFormModal from "../components/PlantFormModal";
 
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL;
+
 const Dashboard: React.FC = () => {
   const [plants, setPlants] = useState<Plant[]>([]);
   const [modalPlant, setModalPlant] = useState<Plant | null>(null);
@@ -15,14 +17,14 @@ const Dashboard: React.FC = () => {
 
   const fetchPlants = () => {
     axios
-      .get<Plant[]>("https://localhost:7056/api/plants")
+      .get<Plant[]>(`${API_BASE_URL}plants`)
       .then((response) => setPlants(response.data))
       .catch((error) => console.error("Error fetching plants:", error));
   };
 
   const fetchDuePlants = () => {
     axios
-      .get<Plant[]>("https://localhost:7056/api/plants/due")
+      .get<Plant[]>(`${API_BASE_URL}plants/due`)
       .then((response) => setPlants(response.data))
       .catch((error) => console.error("Error fetching due plants:", error));
   };
@@ -36,12 +38,12 @@ const Dashboard: React.FC = () => {
 
     if (plant.id) {
       axios
-        .put(`https://localhost:7056/api/plants/${plant.id}`, payload)
+        .put(`${API_BASE_URL}plants/${plant.id}`, payload)
         .then(fetchPlants)
         .catch((error) => console.error("Error updating plant:", error));
     } else {
       axios
-        .post("https://localhost:7056/api/plants", payload)
+        .post(`${API_BASE_URL}plants`, payload)
         .then(fetchPlants)
         .catch((error) => console.error("Error adding plant:", error));
     }
@@ -50,14 +52,14 @@ const Dashboard: React.FC = () => {
 
   const handleDeletePlant = (id: string) => {
     axios
-      .delete(`https://localhost:7056/api/plants/${id}`)
+      .delete(`${API_BASE_URL}plants/${id}`)
       .then(fetchPlants)
       .catch((error) => console.error("Error deleting plant:", error));
   };
 
   const handleWaterPlant = (id: string) => {
     axios
-      .put(`https://localhost:7056/api/plants/${id}/water`)
+      .put(`${API_BASE_URL}plants/${id}/water`)
       .then(fetchPlants)
       .catch((error) => console.error("Error watering plant:", error));
   };

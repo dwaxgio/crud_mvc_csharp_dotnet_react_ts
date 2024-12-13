@@ -1,6 +1,4 @@
 import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
 import "./App.css";
 
 import React from "react";
@@ -17,6 +15,21 @@ function App() {
           <Route path="/" element={<Dashboard />} />
         </Routes>
       </Router>
+
+      
+      <footer
+        style={{
+          position: "fixed",
+          bottom: 0,
+          right: 0,
+          backgroundColor: "rgba(145, 143, 143, 0.8)",
+          padding: "5px 10px",
+          borderRadius: "5px 0 0 0",
+          fontSize: "0.9rem",
+        }}
+      >
+        © Developed by <strong>Edward Giraldo</strong>
+      </footer>
     </>
   );
 }
