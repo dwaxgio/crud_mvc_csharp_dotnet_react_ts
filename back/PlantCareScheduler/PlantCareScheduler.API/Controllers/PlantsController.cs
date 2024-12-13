@@ -26,6 +26,11 @@ namespace PlantCareScheduler.API.Controllers
         [HttpPost]
         public async Task<IActionResult> AddPlant([FromBody] Plant plant)
         {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState); 
+            }
+
             plant.Id = Guid.NewGuid();
             _context.Plants.Add(plant);
             await _context.SaveChangesAsync();
@@ -38,7 +43,7 @@ namespace PlantCareScheduler.API.Controllers
             var plant = await _context.Plants.FindAsync(id);
             if (plant == null) return NotFound();
 
-            plant.LastWateredDate = DateTime.Now;
+            plant.LastWateredDate = DateTime.Now; 
             await _context.SaveChangesAsync();
             return NoContent();
         }

@@ -16,20 +16,43 @@ const Dashboard: React.FC = () => {
   const fetchPlants = () => {
     axios
       .get<Plant[]>("https://localhost:7056/api/plants")
-      .then((response) => setPlants(response.data));
+      .then((response) => setPlants(response.data))
+      .catch((error) => console.error("Error fetching plants:", error));
   };
 
   const handleSavePlant = (plant: Plant) => {
+    const payload = {
+      ...plant,
+      id: plant.id || undefined,
+      lastWateredDate: new Date(plant.lastWateredDate).toISOString(),
+    };
+
     if (plant.id) {
-      axios.put(`https://localhost:7056/api/plants/${plant.id}`, plant).then(fetchPlants);
+      axios
+        .put(`https://localhost:7056/api/plants/${plant.id}`, payload)
+        .then(fetchPlants)
+        .catch((error) => console.error("Error updating plant:", error));
     } else {
-      axios.post("https://localhost:7056/api/plants", plant).then(fetchPlants);
+      axios
+        .post("https://localhost:7056/api/plants", payload)
+        .then(fetchPlants)
+        .catch((error) => console.error("Error adding plant:", error));
     }
     setIsModalOpen(false);
   };
 
   const handleDeletePlant = (id: string) => {
-    axios.delete(`https://localhost:7056/api/plants/${id}`).then(fetchPlants);
+    axios
+      .delete(`https://localhost:7056/api/plants/${id}`)
+      .then(fetchPlants)
+      .catch((error) => console.error("Error deleting plant:", error));
+  };
+
+  const handleWaterPlant = (id: string) => {
+    axios
+      .put(`https://localhost:7056/api/plants/${id}/water`)
+      .then(fetchPlants)
+      .catch((error) => console.error("Error watering plant:", error));
   };
 
   return (
@@ -51,6 +74,7 @@ const Dashboard: React.FC = () => {
           setIsModalOpen(true);
         }}
         onDelete={handleDeletePlant}
+        onWater={handleWaterPlant} // Nueva función para registrar el riego
       />
       <PlantFormModal
         plant={modalPlant}

@@ -3,14 +3,16 @@ import { Plant } from "../models/Plant";
 
 interface PlantTableProps {
   plants: Plant[];
-  onEdit: (plant: Plant) => void;
+//   onEdit: (plant: Plant) => void;
   onDelete: (id: string) => void;
+  onWater: (id: string) => void;
 }
 
 const PlantTable: React.FC<PlantTableProps> = ({
   plants,
-  onEdit,
+//   onEdit,
   onDelete,
+  onWater,
 }) => {
   const [currentPage, setCurrentPage] = React.useState(1);
   const recordsPerPage = 5;
@@ -42,11 +44,17 @@ const PlantTable: React.FC<PlantTableProps> = ({
               <td>{new Date(plant.lastWateredDate).toLocaleDateString()}</td>
               <td>{plant.location}</td>
               <td>
-                <button
+                {/* <button
                   className="btn btn-primary btn-sm"
                   onClick={() => onEdit(plant)}
                 >
                   Edit
+                </button> */}
+                <button
+                  className="btn btn-success btn-sm ms-2"
+                  onClick={() => onWater(plant.id)}
+                >
+                  Water
                 </button>
                 <button
                   className="btn btn-danger btn-sm ms-2"
