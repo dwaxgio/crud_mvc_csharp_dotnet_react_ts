@@ -86,6 +86,33 @@ npm run dev
 npm test
 ```
 
+### 6. Setup Database using Entity Framework
+
+1. **Open the backend project in Visual Studio.**
+2. **Configure the database connection string:**
+   - Open `appsettings.json`.
+   - Update the `ConnectionStrings.DefaultConnection` value to match your SQL Server instance:
+     ```json
+     {
+       "ConnectionStrings": {
+         "DefaultConnection": "Server=localhost;Database=PlantCareDB;Trusted_Connection=True;MultipleActiveResultSets=true"
+       }
+     }
+     ```
+3. **Run migrations:**
+   - Open the **Package Manager Console** in Visual Studio and run:
+     ```bash
+     Add-Migration InitialCreate
+     Update-Database
+     ```
+   - This will create the `PlantCareDB` database with the necessary tables.
+
+4. **Verify the database setup:**
+   - Open SQL Server Management Studio (SSMS).
+   - Check that the `PlantCareDB` database and its tables were created.
+
+### 7. Start the backend
+Run the backend API project in Visual Studio using IIS Express or Kestrel.
 ---
 
 ## Brief Explanation of Approach
