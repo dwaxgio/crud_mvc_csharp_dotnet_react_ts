@@ -10,7 +10,7 @@ A React-based application for managing plant care schedules, including adding, e
 ### Create
 ![2_CREATE](./front/public/images/2_CREATE.png)
 
-### Update
+### Update (water status)
 ![3_UPDATE_1](./front/public/images/3_UPDATE_1.png)
 ![3_UPDATE_2](./front/public/images/3_UPDATE_2.png)
 
