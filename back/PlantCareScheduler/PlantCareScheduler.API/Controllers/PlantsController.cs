@@ -52,12 +52,14 @@ namespace PlantCareScheduler.API.Controllers
         public async Task<IActionResult> GetDuePlants()
         {
             var today = DateTime.Today;
+                        
             var duePlants = await _context.Plants
                 .Where(p => EF.Functions.DateDiffDay(p.LastWateredDate, today) >= p.WateringFrequencyDays)
                 .ToListAsync();
 
             return Ok(duePlants);
         }
+
 
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeletePlant(Guid id)

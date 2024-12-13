@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Plant } from "../models/Plant";
 
 interface PlantTableProps {
@@ -12,15 +12,9 @@ const PlantTable: React.FC<PlantTableProps> = ({
   onDelete,
   onWater,
 }) => {
-  const [currentPage, setCurrentPage] = React.useState(1);
+  const [currentPage, setCurrentPage] = useState(1);
+  const [sortBy, setSortBy] = useState<"urgency" | "name" | "type">("urgency"); // Estado para el criterio de orden
   const recordsPerPage = 5;
-
-  const paginatedPlants = plants.slice(
-    (currentPage - 1) * recordsPerPage,
-    currentPage * recordsPerPage
-  );
-
-  const totalPages = Math.ceil(plants.length / recordsPerPage);
 
   const calculateStatus = (plant: Plant): { status: string; color: string } => {
     const today = new Date();
@@ -36,15 +30,61 @@ const PlantTable: React.FC<PlantTableProps> = ({
 
     if (daysUntilNextWatering < 0) {
       return { status: "Overdue", color: "red" };
-    } else if (daysUntilNextWatering <= 3) {
+    } else if (daysUntilNextWatering <= 2) {
       return { status: "Due Soon", color: "orange" };
     } else {
       return { status: "OK", color: "green" };
     }
   };
 
+  const sortedPlants = [...plants].sort((a, b) => {
+    if (sortBy === "urgency") {
+      const today = new Date();
+      const nextWateringA = new Date(
+        new Date(a.lastWateredDate).getTime() +
+          a.wateringFrequencyDays * 24 * 60 * 60 * 1000
+      );
+      const nextWateringB = new Date(
+        new Date(b.lastWateredDate).getTime() +
+          b.wateringFrequencyDays * 24 * 60 * 60 * 1000
+      );
+
+      return nextWateringA.getTime() - nextWateringB.getTime();
+    } else if (sortBy === "name") {
+      return a.name.localeCompare(b.name);
+    } else if (sortBy === "type") {
+      return a.type.localeCompare(b.type);
+    }
+    return 0;
+  });
+
+  const paginatedPlants = sortedPlants.slice(
+    (currentPage - 1) * recordsPerPage,
+    currentPage * recordsPerPage
+  );
+
+  const totalPages = Math.ceil(sortedPlants.length / recordsPerPage);
+
   return (
     <div>
+      <div className="mb-3 d-flex justify-content-end">
+        <label htmlFor="sortBy" className="me-2">
+          Sort By:
+        </label>
+        <select
+          id="sortBy"
+          className="form-select w-auto"
+          value={sortBy}
+          onChange={(e) =>
+            setSortBy(e.target.value as "urgency" | "name" | "type")
+          }
+        >
+          <option value="urgency">Urgency</option>
+          <option value="name">Name</option>
+          <option value="type">Type</option>
+        </select>
+      </div>
+
       <table className="table table-striped">
         <thead>
           <tr>
@@ -89,6 +129,7 @@ const PlantTable: React.FC<PlantTableProps> = ({
           })}
         </tbody>
       </table>
+
       <div className="d-flex justify-content-between">
         <button
           className="btn btn-secondary"

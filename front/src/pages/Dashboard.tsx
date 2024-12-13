@@ -20,6 +20,13 @@ const Dashboard: React.FC = () => {
       .catch((error) => console.error("Error fetching plants:", error));
   };
 
+  const fetchDuePlants = () => {
+    axios
+      .get<Plant[]>("https://localhost:7056/api/plants/due")
+      .then((response) => setPlants(response.data))
+      .catch((error) => console.error("Error fetching due plants:", error));
+  };
+
   const handleSavePlant = (plant: Plant) => {
     const payload = {
       ...plant,
@@ -58,23 +65,27 @@ const Dashboard: React.FC = () => {
   return (
     <div className="container mt-5">
       <h1 className="mb-4">Plant Care Dashboard</h1>
-      <button
-        className="btn btn-success mb-3"
-        onClick={() => {
-          setModalPlant(null);
-          setIsModalOpen(true);
-        }}
-      >
-        Add Plant
-      </button>
+      <div className="d-flex justify-content-between mb-3">
+        <button
+          className="btn btn-success"
+          onClick={() => {
+            setModalPlant(null);
+            setIsModalOpen(true);
+          }}
+        >
+          Add Plant
+        </button>
+        <button className="btn btn-warning" onClick={fetchDuePlants}>
+          Show Due Plants
+        </button>
+        <button className="btn btn-secondary" onClick={fetchPlants}>
+          Show All Plants
+        </button>
+      </div>
       <PlantTable
         plants={plants}
-        // onEdit={(plant) => {
-        //   setModalPlant(plant);
-        //   setIsModalOpen(true);
-        // }}
         onDelete={handleDeletePlant}
-        onWater={handleWaterPlant} // Nueva función para registrar el riego
+        onWater={handleWaterPlant}
       />
       <PlantFormModal
         plant={modalPlant}
