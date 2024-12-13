@@ -69,10 +69,10 @@ const Dashboard: React.FC = () => {
       </button>
       <PlantTable
         plants={plants}
-        onEdit={(plant) => {
-          setModalPlant(plant);
-          setIsModalOpen(true);
-        }}
+        // onEdit={(plant) => {
+        //   setModalPlant(plant);
+        //   setIsModalOpen(true);
+        // }}
         onDelete={handleDeletePlant}
         onWater={handleWaterPlant} // Nueva función para registrar el riego
       />
