@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "D:\\crud_mvc_csharp_dotnet_react_ts\\back\\PlantCareScheduler\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5D838BC6-305E-4EB8-B6C4-80634D0DC211}|PlantCareScheduler.API\\PlantCareScheduler.API.csproj|d:\\crud_mvc_csharp_dotnet_react_ts\\back\\plantcarescheduler\\plantcarescheduler.api\\controllers\\plantscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5D838BC6-305E-4EB8-B6C4-80634D0DC211}|PlantCareScheduler.API\\PlantCareScheduler.API.csproj|solutionrelative:plantcarescheduler.api\\controllers\\plantscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5D838BC6-305E-4EB8-B6C4-80634D0DC211}|PlantCareScheduler.API\\PlantCareScheduler.API.csproj|d:\\crud_mvc_csharp_dotnet_react_ts\\back\\plantcarescheduler\\plantcarescheduler.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5D838BC6-305E-4EB8-B6C4-80634D0DC211}|PlantCareScheduler.API\\PlantCareScheduler.API.csproj|solutionrelative:plantcarescheduler.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D838BC6-305E-4EB8-B6C4-80634D0DC211}|PlantCareScheduler.API\\PlantCareScheduler.API.csproj|d:\\crud_mvc_csharp_dotnet_react_ts\\back\\plantcarescheduler\\plantcarescheduler.api\\models\\plant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D838BC6-305E-4EB8-B6C4-80634D0DC211}|PlantCareScheduler.API\\PlantCareScheduler.API.csproj|solutionrelative:plantcarescheduler.api\\models\\plant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5D838BC6-305E-4EB8-B6C4-80634D0DC211}|PlantCareScheduler.API\\PlantCareScheduler.API.csproj|d:\\crud_mvc_csharp_dotnet_react_ts\\back\\plantcarescheduler\\plantcarescheduler.api\\data\\plantcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5D838BC6-305E-4EB8-B6C4-80634D0DC211}|PlantCareScheduler.API\\PlantCareScheduler.API.csproj|solutionrelative:plantcarescheduler.api\\data\\plantcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5D838BC6-305E-4EB8-B6C4-80634D0DC211}|PlantCareScheduler.API\\PlantCareScheduler.API.csproj|d:\\crud_mvc_csharp_dotnet_react_ts\\back\\plantcarescheduler\\plantcarescheduler.api\\models\\plant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5D838BC6-305E-4EB8-B6C4-80634D0DC211}|PlantCareScheduler.API\\PlantCareScheduler.API.csproj|solutionrelative:plantcarescheduler.api\\models\\plant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5D838BC6-305E-4EB8-B6C4-80634D0DC211}|PlantCareScheduler.API\\PlantCareScheduler.API.csproj|d:\\crud_mvc_csharp_dotnet_react_ts\\back\\plantcarescheduler\\plantcarescheduler.api\\controllers\\plantscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D838BC6-305E-4EB8-B6C4-80634D0DC211}|PlantCareScheduler.API\\PlantCareScheduler.API.csproj|solutionrelative:plantcarescheduler.api\\controllers\\plantscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5D838BC6-305E-4EB8-B6C4-80634D0DC211}|PlantCareScheduler.API\\PlantCareScheduler.API.csproj|d:\\crud_mvc_csharp_dotnet_react_ts\\back\\plantcarescheduler\\plantcarescheduler.api\\migrations\\20241212185218_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
@@ -51,7 +51,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Plant.cs",
               "DocumentMoniker": "D:\\crud_mvc_csharp_dotnet_react_ts\\back\\PlantCareScheduler\\PlantCareScheduler.API\\Models\\Plant.cs",
               "RelativeDocumentMoniker": "PlantCareScheduler.API\\Models\\Plant.cs",
@@ -77,7 +77,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\crud_mvc_csharp_dotnet_react_ts\\back\\PlantCareScheduler\\PlantCareScheduler.API\\Program.cs",
               "RelativeDocumentMoniker": "PlantCareScheduler.API\\Program.cs",
@@ -86,7 +86,8 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAC8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-12T18:47:43.586Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -103,17 +104,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "PlantsController.cs",
               "DocumentMoniker": "D:\\crud_mvc_csharp_dotnet_react_ts\\back\\PlantCareScheduler\\PlantCareScheduler.API\\Controllers\\PlantsController.cs",
               "RelativeDocumentMoniker": "PlantCareScheduler.API\\Controllers\\PlantsController.cs",
               "ToolTip": "D:\\crud_mvc_csharp_dotnet_react_ts\\back\\PlantCareScheduler\\PlantCareScheduler.API\\Controllers\\PlantsController.cs",
               "RelativeToolTip": "PlantCareScheduler.API\\Controllers\\PlantsController.cs",
-              "ViewState": "AQIAAB0AAAAAAAAAAAAUwEkAAAAvAAAA",
+              "ViewState": "AQIAACYAAAAAAAAAAAAwwDIAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-12T21:04:39.412Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             }
           ]
         }
