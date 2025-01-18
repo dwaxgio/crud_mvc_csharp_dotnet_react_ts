@@ -69,7 +69,7 @@ const Dashboard: React.FC = () => {
       <h1 className="mb-4">Plant Care Dashboard</h1>
       <div className="d-flex justify-content-between mb-3">
         <button
-          className="btn btn-success"
+          className="btn btn-info"
           onClick={() => {
             setModalPlant(null);
             setIsModalOpen(true);
