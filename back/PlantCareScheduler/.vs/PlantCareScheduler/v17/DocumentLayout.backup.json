@@ -1,29 +1,29 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\EDWARD\\Desktop\\crud_mvc_csharp_dotnet_react_ts_fork.git\\back\\PlantCareScheduler\\",
+  "WorkspaceRootPath": "D:\\crud_mvc_csharp_dotnet_react_ts\\back\\PlantCareScheduler\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5D838BC6-305E-4EB8-B6C4-80634D0DC211}|PlantCareScheduler.API\\PlantCareScheduler.API.csproj|c:\\users\\edward\\desktop\\crud_mvc_csharp_dotnet_react_ts_fork.git\\back\\plantcarescheduler\\plantcarescheduler.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5D838BC6-305E-4EB8-B6C4-80634D0DC211}|PlantCareScheduler.API\\PlantCareScheduler.API.csproj|d:\\crud_mvc_csharp_dotnet_react_ts\\back\\plantcarescheduler\\plantcarescheduler.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5D838BC6-305E-4EB8-B6C4-80634D0DC211}|PlantCareScheduler.API\\PlantCareScheduler.API.csproj|solutionrelative:plantcarescheduler.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5D838BC6-305E-4EB8-B6C4-80634D0DC211}|PlantCareScheduler.API\\PlantCareScheduler.API.csproj|c:\\users\\edward\\desktop\\crud_mvc_csharp_dotnet_react_ts_fork.git\\back\\plantcarescheduler\\plantcarescheduler.api\\models\\plant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5D838BC6-305E-4EB8-B6C4-80634D0DC211}|PlantCareScheduler.API\\PlantCareScheduler.API.csproj|d:\\crud_mvc_csharp_dotnet_react_ts\\back\\plantcarescheduler\\plantcarescheduler.api\\models\\plant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5D838BC6-305E-4EB8-B6C4-80634D0DC211}|PlantCareScheduler.API\\PlantCareScheduler.API.csproj|solutionrelative:plantcarescheduler.api\\models\\plant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5D838BC6-305E-4EB8-B6C4-80634D0DC211}|PlantCareScheduler.API\\PlantCareScheduler.API.csproj|c:\\users\\edward\\desktop\\crud_mvc_csharp_dotnet_react_ts_fork.git\\back\\plantcarescheduler\\plantcarescheduler.api\\data\\plantcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5D838BC6-305E-4EB8-B6C4-80634D0DC211}|PlantCareScheduler.API\\PlantCareScheduler.API.csproj|d:\\crud_mvc_csharp_dotnet_react_ts\\back\\plantcarescheduler\\plantcarescheduler.api\\data\\plantcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5D838BC6-305E-4EB8-B6C4-80634D0DC211}|PlantCareScheduler.API\\PlantCareScheduler.API.csproj|solutionrelative:plantcarescheduler.api\\data\\plantcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5D838BC6-305E-4EB8-B6C4-80634D0DC211}|PlantCareScheduler.API\\PlantCareScheduler.API.csproj|c:\\users\\edward\\desktop\\crud_mvc_csharp_dotnet_react_ts_fork.git\\back\\plantcarescheduler\\plantcarescheduler.api\\controllers\\plantscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5D838BC6-305E-4EB8-B6C4-80634D0DC211}|PlantCareScheduler.API\\PlantCareScheduler.API.csproj|d:\\crud_mvc_csharp_dotnet_react_ts\\back\\plantcarescheduler\\plantcarescheduler.api\\controllers\\plantscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5D838BC6-305E-4EB8-B6C4-80634D0DC211}|PlantCareScheduler.API\\PlantCareScheduler.API.csproj|solutionrelative:plantcarescheduler.api\\controllers\\plantscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5D838BC6-305E-4EB8-B6C4-80634D0DC211}|PlantCareScheduler.API\\PlantCareScheduler.API.csproj|c:\\users\\edward\\desktop\\crud_mvc_csharp_dotnet_react_ts_fork.git\\back\\plantcarescheduler\\plantcarescheduler.api\\migrations\\20241212185218_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5D838BC6-305E-4EB8-B6C4-80634D0DC211}|PlantCareScheduler.API\\PlantCareScheduler.API.csproj|d:\\crud_mvc_csharp_dotnet_react_ts\\back\\plantcarescheduler\\plantcarescheduler.api\\migrations\\20241212185218_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5D838BC6-305E-4EB8-B6C4-80634D0DC211}|PlantCareScheduler.API\\PlantCareScheduler.API.csproj|solutionrelative:plantcarescheduler.api\\migrations\\20241212185218_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5D838BC6-305E-4EB8-B6C4-80634D0DC211}|PlantCareScheduler.API\\PlantCareScheduler.API.csproj|c:\\users\\edward\\desktop\\crud_mvc_csharp_dotnet_react_ts_fork.git\\back\\plantcarescheduler\\plantcarescheduler.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{5D838BC6-305E-4EB8-B6C4-80634D0DC211}|PlantCareScheduler.API\\PlantCareScheduler.API.csproj|d:\\crud_mvc_csharp_dotnet_react_ts\\back\\plantcarescheduler\\plantcarescheduler.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{5D838BC6-305E-4EB8-B6C4-80634D0DC211}|PlantCareScheduler.API\\PlantCareScheduler.API.csproj|solutionrelative:plantcarescheduler.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
@@ -40,9 +40,9 @@
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\EDWARD\\Desktop\\crud_mvc_csharp_dotnet_react_ts_fork.git\\back\\PlantCareScheduler\\PlantCareScheduler.API\\appsettings.json",
+              "DocumentMoniker": "D:\\crud_mvc_csharp_dotnet_react_ts\\back\\PlantCareScheduler\\PlantCareScheduler.API\\appsettings.json",
               "RelativeDocumentMoniker": "PlantCareScheduler.API\\appsettings.json",
-              "ToolTip": "C:\\Users\\EDWARD\\Desktop\\crud_mvc_csharp_dotnet_react_ts_fork.git\\back\\PlantCareScheduler\\PlantCareScheduler.API\\appsettings.json",
+              "ToolTip": "D:\\crud_mvc_csharp_dotnet_react_ts\\back\\PlantCareScheduler\\PlantCareScheduler.API\\appsettings.json",
               "RelativeToolTip": "PlantCareScheduler.API\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -53,9 +53,9 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Plant.cs",
-              "DocumentMoniker": "C:\\Users\\EDWARD\\Desktop\\crud_mvc_csharp_dotnet_react_ts_fork.git\\back\\PlantCareScheduler\\PlantCareScheduler.API\\Models\\Plant.cs",
+              "DocumentMoniker": "D:\\crud_mvc_csharp_dotnet_react_ts\\back\\PlantCareScheduler\\PlantCareScheduler.API\\Models\\Plant.cs",
               "RelativeDocumentMoniker": "PlantCareScheduler.API\\Models\\Plant.cs",
-              "ToolTip": "C:\\Users\\EDWARD\\Desktop\\crud_mvc_csharp_dotnet_react_ts_fork.git\\back\\PlantCareScheduler\\PlantCareScheduler.API\\Models\\Plant.cs",
+              "ToolTip": "D:\\crud_mvc_csharp_dotnet_react_ts\\back\\PlantCareScheduler\\PlantCareScheduler.API\\Models\\Plant.cs",
               "RelativeToolTip": "PlantCareScheduler.API\\Models\\Plant.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -66,9 +66,9 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "PlantContext.cs",
-              "DocumentMoniker": "C:\\Users\\EDWARD\\Desktop\\crud_mvc_csharp_dotnet_react_ts_fork.git\\back\\PlantCareScheduler\\PlantCareScheduler.API\\Data\\PlantContext.cs",
+              "DocumentMoniker": "D:\\crud_mvc_csharp_dotnet_react_ts\\back\\PlantCareScheduler\\PlantCareScheduler.API\\Data\\PlantContext.cs",
               "RelativeDocumentMoniker": "PlantCareScheduler.API\\Data\\PlantContext.cs",
-              "ToolTip": "C:\\Users\\EDWARD\\Desktop\\crud_mvc_csharp_dotnet_react_ts_fork.git\\back\\PlantCareScheduler\\PlantCareScheduler.API\\Data\\PlantContext.cs",
+              "ToolTip": "D:\\crud_mvc_csharp_dotnet_react_ts\\back\\PlantCareScheduler\\PlantCareScheduler.API\\Data\\PlantContext.cs",
               "RelativeToolTip": "PlantCareScheduler.API\\Data\\PlantContext.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -79,11 +79,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\EDWARD\\Desktop\\crud_mvc_csharp_dotnet_react_ts_fork.git\\back\\PlantCareScheduler\\PlantCareScheduler.API\\Program.cs",
+              "DocumentMoniker": "D:\\crud_mvc_csharp_dotnet_react_ts\\back\\PlantCareScheduler\\PlantCareScheduler.API\\Program.cs",
               "RelativeDocumentMoniker": "PlantCareScheduler.API\\Program.cs",
-              "ToolTip": "C:\\Users\\EDWARD\\Desktop\\crud_mvc_csharp_dotnet_react_ts_fork.git\\back\\PlantCareScheduler\\PlantCareScheduler.API\\Program.cs",
+              "ToolTip": "D:\\crud_mvc_csharp_dotnet_react_ts\\back\\PlantCareScheduler\\PlantCareScheduler.API\\Program.cs",
               "RelativeToolTip": "PlantCareScheduler.API\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAAAAAAAAAAAAA==",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAwwC8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-12T18:47:43.586Z",
               "IsPinned": true,
@@ -93,9 +93,9 @@
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "20241212185218_InitialCreate.cs",
-              "DocumentMoniker": "C:\\Users\\EDWARD\\Desktop\\crud_mvc_csharp_dotnet_react_ts_fork.git\\back\\PlantCareScheduler\\PlantCareScheduler.API\\Migrations\\20241212185218_InitialCreate.cs",
+              "DocumentMoniker": "D:\\crud_mvc_csharp_dotnet_react_ts\\back\\PlantCareScheduler\\PlantCareScheduler.API\\Migrations\\20241212185218_InitialCreate.cs",
               "RelativeDocumentMoniker": "PlantCareScheduler.API\\Migrations\\20241212185218_InitialCreate.cs",
-              "ToolTip": "C:\\Users\\EDWARD\\Desktop\\crud_mvc_csharp_dotnet_react_ts_fork.git\\back\\PlantCareScheduler\\PlantCareScheduler.API\\Migrations\\20241212185218_InitialCreate.cs",
+              "ToolTip": "D:\\crud_mvc_csharp_dotnet_react_ts\\back\\PlantCareScheduler\\PlantCareScheduler.API\\Migrations\\20241212185218_InitialCreate.cs",
               "RelativeToolTip": "PlantCareScheduler.API\\Migrations\\20241212185218_InitialCreate.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -106,9 +106,9 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "PlantsController.cs",
-              "DocumentMoniker": "C:\\Users\\EDWARD\\Desktop\\crud_mvc_csharp_dotnet_react_ts_fork.git\\back\\PlantCareScheduler\\PlantCareScheduler.API\\Controllers\\PlantsController.cs",
+              "DocumentMoniker": "D:\\crud_mvc_csharp_dotnet_react_ts\\back\\PlantCareScheduler\\PlantCareScheduler.API\\Controllers\\PlantsController.cs",
               "RelativeDocumentMoniker": "PlantCareScheduler.API\\Controllers\\PlantsController.cs",
-              "ToolTip": "C:\\Users\\EDWARD\\Desktop\\crud_mvc_csharp_dotnet_react_ts_fork.git\\back\\PlantCareScheduler\\PlantCareScheduler.API\\Controllers\\PlantsController.cs",
+              "ToolTip": "D:\\crud_mvc_csharp_dotnet_react_ts\\back\\PlantCareScheduler\\PlantCareScheduler.API\\Controllers\\PlantsController.cs",
               "RelativeToolTip": "PlantCareScheduler.API\\Controllers\\PlantsController.cs",
               "ViewState": "AQIAACYAAAAAAAAAAAAwwDIAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
