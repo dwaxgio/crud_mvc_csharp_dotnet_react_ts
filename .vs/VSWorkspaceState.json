@@ -1,16 +1,7 @@
 {
   "ExpandedNodes": [
-    "",
-    "\\back",
-    "\\back\\PlantCareScheduler",
-    "\\back\\PlantCareScheduler\\PlantCareScheduler.API",
-    "\\back\\PlantCareScheduler\\PlantCareScheduler.API\\Data",
-    "\\front",
-    "\\front\\src",
-    "\\front\\src\\components",
-    "\\front\\src\\components\\__tests__",
-    "\\front\\src\\models",
-    "\\front\\src\\pages"
+    ""
   ],
+  "SelectedNode": "\\PlantCareScheduler.sln",
   "PreviewInSolutionExplorer": false
 }

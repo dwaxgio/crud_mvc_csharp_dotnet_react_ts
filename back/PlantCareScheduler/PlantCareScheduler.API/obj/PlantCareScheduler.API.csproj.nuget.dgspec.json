@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\crud_mvc_csharp_dotnet_react_ts\\back\\PlantCareScheduler\\PlantCareScheduler.API\\PlantCareScheduler.API.csproj": {}
+    "C:\\Users\\EDWARD\\Desktop\\crud_mvc_csharp_dotnet_react_ts_fork.git\\back\\PlantCareScheduler\\PlantCareScheduler.API\\PlantCareScheduler.API.csproj": {}
   },
   "projects": {
-    "D:\\crud_mvc_csharp_dotnet_react_ts\\back\\PlantCareScheduler\\PlantCareScheduler.API\\PlantCareScheduler.API.csproj": {
+    "C:\\Users\\EDWARD\\Desktop\\crud_mvc_csharp_dotnet_react_ts_fork.git\\back\\PlantCareScheduler\\PlantCareScheduler.API\\PlantCareScheduler.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\crud_mvc_csharp_dotnet_react_ts\\back\\PlantCareScheduler\\PlantCareScheduler.API\\PlantCareScheduler.API.csproj",
+        "projectUniqueName": "C:\\Users\\EDWARD\\Desktop\\crud_mvc_csharp_dotnet_react_ts_fork.git\\back\\PlantCareScheduler\\PlantCareScheduler.API\\PlantCareScheduler.API.csproj",
         "projectName": "PlantCareScheduler.API",
-        "projectPath": "D:\\crud_mvc_csharp_dotnet_react_ts\\back\\PlantCareScheduler\\PlantCareScheduler.API\\PlantCareScheduler.API.csproj",
-        "packagesPath": "C:\\Users\\edwar\\.nuget\\packages\\",
-        "outputPath": "D:\\crud_mvc_csharp_dotnet_react_ts\\back\\PlantCareScheduler\\PlantCareScheduler.API\\obj\\",
+        "projectPath": "C:\\Users\\EDWARD\\Desktop\\crud_mvc_csharp_dotnet_react_ts_fork.git\\back\\PlantCareScheduler\\PlantCareScheduler.API\\PlantCareScheduler.API.csproj",
+        "packagesPath": "C:\\Users\\EDWARD\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\EDWARD\\Desktop\\crud_mvc_csharp_dotnet_react_ts_fork.git\\back\\PlantCareScheduler\\PlantCareScheduler.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\edwar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\EDWARD\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -43,7 +43,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -87,7 +88,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
